@@ -1,0 +1,36 @@
+body {
+    overflow-x: hidden;
+}
+
+#input {
+    height: 60px;
+}
+
+#input:focus, #input:hover, #input:active, #input:checked{
+    outline: none !important;
+    border: none !important;
+}
+
+#btn {
+    width: 120px;
+}
+
+#btn:hover {
+    background-color: darkgreen !important;
+}
+
+
+i:hover, i:focus {
+    color: orange;
+    cursor: pointer;
+}
+
+
+.list-group li {
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.list-group li:hover {
+    background-color: lightgray;
+}
